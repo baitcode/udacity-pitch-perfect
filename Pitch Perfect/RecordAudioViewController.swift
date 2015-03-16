@@ -32,7 +32,7 @@ class RecordAudioViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     override func viewWillAppear(animated: Bool) {
-        self.setStatus("");
+        self.setStatus("Tap to record");
         self.stopBtn.hidden = true;
         self.recordingBtn.enabled = true;
         self.pauseBtn.hidden = true;

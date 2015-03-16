@@ -27,7 +27,7 @@
                                     <action selector="record:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Yl2-0d-1Fa"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recording" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVI-J8-mJd" userLabel="RecordLbl">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recording" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVI-J8-mJd" userLabel="StatusLbl">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="15"/>
                                 <color key="textColor" red="0.14509803921568626" green="0.28235294117647058" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
@@ -47,9 +47,6 @@
                                 <state key="normal" image="pause">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="175" y="461" width="49" height="49"/>
-                                </variation>
                                 <connections>
                                     <action selector="pause:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3ZB-uf-0Bw"/>
                                 </connections>
@@ -74,14 +71,14 @@
                                 <exclude reference="Qc1-BG-wSQ"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="hRq-g6-xP5"/>
-                                <exclude reference="uV4-9N-jwp"/>
+                                <exclude reference="0mb-E2-rgk"/>
+                                <exclude reference="ggc-SC-whA"/>
                                 <exclude reference="jo4-Kr-gr6"/>
                                 <exclude reference="ogP-L0-maf"/>
                                 <exclude reference="QoE-9U-XVG"/>
+                                <exclude reference="hRq-g6-xP5"/>
+                                <exclude reference="uV4-9N-jwp"/>
                                 <exclude reference="zEr-Ko-ody"/>
-                                <exclude reference="0mb-E2-rgk"/>
-                                <exclude reference="ggc-SC-whA"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -92,14 +89,14 @@
                                 <include reference="Qc1-BG-wSQ"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="hRq-g6-xP5"/>
-                                <include reference="uV4-9N-jwp"/>
+                                <include reference="0mb-E2-rgk"/>
+                                <include reference="ggc-SC-whA"/>
                                 <include reference="jo4-Kr-gr6"/>
                                 <include reference="ogP-L0-maf"/>
                                 <include reference="QoE-9U-XVG"/>
+                                <include reference="hRq-g6-xP5"/>
+                                <include reference="uV4-9N-jwp"/>
                                 <include reference="zEr-Ko-ody"/>
-                                <include reference="0mb-E2-rgk"/>
-                                <include reference="ggc-SC-whA"/>
                             </mask>
                         </variation>
                     </view>
@@ -209,18 +206,18 @@
                                 <exclude reference="6f7-CF-fud"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="7mW-eG-g0C"/>
-                                <exclude reference="Pct-ZU-mb4"/>
+                                <exclude reference="OPo-LY-cOv"/>
+                                <exclude reference="hQG-zW-BNZ"/>
+                                <exclude reference="xz0-xg-dvH"/>
                                 <exclude reference="MbB-on-pDM"/>
                                 <exclude reference="gR9-Ms-01N"/>
+                                <exclude reference="qvQ-bK-Cwl"/>
                                 <exclude reference="fqZ-NE-GhO"/>
                                 <exclude reference="n0u-8H-79P"/>
                                 <exclude reference="CfI-ce-JKa"/>
                                 <exclude reference="ksd-Pn-LkM"/>
-                                <exclude reference="qvQ-bK-Cwl"/>
-                                <exclude reference="OPo-LY-cOv"/>
-                                <exclude reference="hQG-zW-BNZ"/>
-                                <exclude reference="xz0-xg-dvH"/>
+                                <exclude reference="7mW-eG-g0C"/>
+                                <exclude reference="Pct-ZU-mb4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -233,18 +230,18 @@
                                 <include reference="6f7-CF-fud"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="7mW-eG-g0C"/>
-                                <include reference="Pct-ZU-mb4"/>
+                                <include reference="OPo-LY-cOv"/>
+                                <include reference="hQG-zW-BNZ"/>
+                                <include reference="xz0-xg-dvH"/>
                                 <include reference="MbB-on-pDM"/>
                                 <include reference="gR9-Ms-01N"/>
+                                <include reference="qvQ-bK-Cwl"/>
                                 <include reference="fqZ-NE-GhO"/>
                                 <include reference="n0u-8H-79P"/>
                                 <include reference="CfI-ce-JKa"/>
                                 <include reference="ksd-Pn-LkM"/>
-                                <include reference="qvQ-bK-Cwl"/>
-                                <include reference="OPo-LY-cOv"/>
-                                <include reference="hQG-zW-BNZ"/>
-                                <include reference="xz0-xg-dvH"/>
+                                <include reference="7mW-eG-g0C"/>
+                                <include reference="Pct-ZU-mb4"/>
                             </mask>
                         </variation>
                     </view>
