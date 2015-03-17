@@ -52,14 +52,6 @@ class PlaySoundsViewController: UIViewController {
 
     @IBAction func playReverbAction(sender: UIButton) {
         self.resetEffects()
-        // Hi! It took me a while to realize how code review actually works
-        // so I've finally found your comments, but there were no way I could respond to your comment.
-        // So i'm writing you a message here. Yes resetEffects resets all effect settings to defaults
-        // but the next line was
-        // self.reverbEffect.loadFactoryDefault(...)
-        // I though that this method set's up wetDryMix with some predefined value. 
-        // Probably I've picked wrong one, the one that is barely heard. Anyway I've changed it according to your
-        // comment. Thank you very much for your time and please ask somebody to add reply feature 8 ).
         self.reverbEffect.wetDryMix = 10
         self.play()
     }
